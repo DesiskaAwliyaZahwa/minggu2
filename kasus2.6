@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+int main()
+{
+   string raptor_prompt_variable_zzyz;
+   int m,n;
+   float q,r;
+
+   raptor_prompt_variable_zzyz ="Masukkan Bilangan Bulat :";
+   cout << raptor_prompt_variable_zzyz << endl;
+   cin >> m;
+   raptor_prompt_variable_zzyz ="Masukkan Bilangan Bulat:";
+   cout << raptor_prompt_variable_zzyz << endl;
+   cin >> n;
+   if (n<m)
+   {
+      q =m/n;
+      cout << "nilai q adalah:"<<q << endl;     
+		r =m % n;
+      cout << "nilai r adalah:"<<r << endl;   }
+   else
+   {
+      cout << "Angka Tidak Memenuhi" << endl;   }
+
+   return 0;
+}
